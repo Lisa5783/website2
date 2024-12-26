@@ -1,0 +1,69 @@
+
+    /* Основные стили */
+    body {
+      font-family: Arial, sans-serif;
+      color: black;
+      background-color: #fff5f0; /* Нежный томатный фон */
+    }
+
+    /* Hero Section */
+    .hero-section {
+      background-color: white; /* Цвет томато */
+      color: black;
+      padding: 50px 0;
+    }
+
+    .hero-section img {
+      border-radius: 15px;
+      animation: fadeIn 2s ease-in-out; /* Анимация появления */
+    }
+
+    /* Блок преимуществ */
+    .advantages-section {
+      background-color: white; /* Нежный оттенок томато */
+      padding: 50px 0;
+    }
+
+    .advantages-section h2 {
+      color: #ff4500; /* Более яркий томатный цвет */
+    }
+
+    .advantages-section .col-md-4:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    /* Call to Action */
+    .cta-section {
+      background-color: #FFC6A5; /* Коралловый оттенок */
+      color: black;
+      padding: 50px 0;
+    }
+
+    .btn-custom {
+      background-color:  white; /* Яркий томатный цвет кнопки */
+      color: black;
+      border-radius: 25px;
+      transition: background-color 0.3s ease-in-out;
+      
+      
+    }
+
+    .btn-custom:hover {
+      background-color: white; /* Светлее при наведении */
+    }
+
+    /* Форма обратной связи */
+    .contact-section {
+      background-color: white; /* Нежный оттенок томато */
+      padding: 50px 0;
+    }
+
+    .contact-section h2 {
+      color: black;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
